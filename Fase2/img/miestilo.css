@@ -1,0 +1,16 @@
+h1{
+    color: red;
+    background-color: silver;
+}
+p{
+    text-align: center;
+    background-color: slategrey;
+}
+#lorem{
+    color: rgb(105, 71, 255);
+    background-color: rgb(130, 231, 238);
+}
+.class{
+    color: rgb(0, 6, 7);
+    background-color: blueviolet;
+}

@@ -1,0 +1,68 @@
+
+header{
+    text-align: center;
+    background-color: blueviolet;
+    padding: 20px;
+}
+nav{
+    background-color: rgb(43, 198, 226);
+    padding: 20px;
+    width: 1000;
+}
+
+section{
+    grid-column: 1/4;
+    background-color: rgb(75, 231, 83);
+    padding: 30px;
+}
+aside{
+    grid-column: 4/5;
+    background-color: rgb(46, 43, 226);
+    padding: 10px;
+}
+footer{
+    background-color: blueviolet;
+    padding: 3px;
+}
+div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.navegacion{
+    width: 1000px;
+    margin: 30px auto;
+   
+}
+.navegacion ul{
+    list-style: none;
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: rgb(0, 255, 221);
+    transition: all .3s;
+}
+/*submenu*/
+.submenu{
+    position: absolute;
+    background: rgb(159, 255, 3);
+    width: 120%;
+    display: none;
+}
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: rgb(132, 0, 255);
+    text-decoration: none;
+}
+.menu li:hover .submenu{
+    display: block;
+}
+
